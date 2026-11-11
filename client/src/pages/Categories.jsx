@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { meals } from "../data/meals";
+import { getMeals } from "../data/sessionMeals";
 
 const CATEGORIES = [
   { key: "breakfast", label: "Breakfast" },
@@ -8,6 +8,7 @@ const CATEGORIES = [
 ];
 
 export default function Categories() {
+    const meals = getMeals();
   return (
     <main className="home">
       <header className="home-header">

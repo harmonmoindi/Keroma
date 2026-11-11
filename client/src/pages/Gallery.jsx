@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { meals } from "../data/meals";
+import { getMeals } from "../data/sessionMeals";
 import MealSlide from "../components/MealSlide";
 
 const TITLES = {
@@ -10,7 +10,7 @@ const TITLES = {
 
 export default function Gallery() {
   const { category } = useParams();
-  const list = meals.filter((m) => m.category === category);
+  const list = getMeals().filter((m) => m.category === category);
 
   return (
     <div className={`gallery-page ${category}`}>
