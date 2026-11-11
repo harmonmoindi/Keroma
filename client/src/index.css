@@ -23,9 +23,6 @@ a { color: var(--accent); }
   flex-direction: column;
   --accent: #D9693F;
 }
-.gallery-page.breakfast { --accent: #CF9455; }
-.gallery-page.lunch_dinner { --accent: #D9693F; }
-.gallery-page.snacks { --accent: #F2B233; }
 
 .gallery-bar {
   display: flex;
@@ -75,4 +72,60 @@ a { color: var(--accent); }
   padding: 2rem 1rem 1.5rem;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
   font-size: 1.4rem;
+}
+
+:root {
+  --c-breakfast: #CF9455;
+  --c-lunch_dinner: #D9693F;
+  --c-snacks: #F2B233;
+}
+
+/* one place that sets the accent for tiles AND gallery pages */
+.breakfast    { --accent: var(--c-breakfast); }
+.lunch_dinner { --accent: var(--c-lunch_dinner); }
+.snacks       { --accent: var(--c-snacks); }
+
+.home {
+  min-height: 100dvh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+.home-header { text-align: center; margin-bottom: 2rem; }
+.home-header h1 { color: var(--accent); letter-spacing: 0.3em; font-size: 2rem; }
+.home-header p { color: var(--muted); letter-spacing: 0.15em; margin-top: 0.25rem; }
+
+.tiles { display: grid; gap: 1rem; }
+
+.tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 180px;
+  padding: 1.25rem;
+  border-radius: 16px;
+  border-left: 8px solid var(--accent);
+  overflow: hidden;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)),
+    var(--img) center / cover;
+  transition: transform 0.3s;
+}
+.tile > * { position: relative; }
+.tile:hover::before { transform: scale(1.04); }
+.tile-label { font-size: 1.6rem; font-weight: 600; }
+.tile-count { color: var(--accent); margin-top: 0.25rem; }
+
+@media (min-width: 700px) {
+  .tiles { grid-template-columns: repeat(3, 1fr); }
+  .tile { min-height: 320px; }
 }

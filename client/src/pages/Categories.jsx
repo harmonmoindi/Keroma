@@ -1,14 +1,36 @@
 import { Link } from "react-router-dom";
+import { meals } from "../data/meals";
+
+const CATEGORIES = [
+  { key: "breakfast", label: "Breakfast" },
+  { key: "lunch_dinner", label: "Lunch & Dinner" },
+  { key: "snacks", label: "Snacks & Fruits" },
+];
 
 export default function Categories() {
   return (
-    <main style={{ padding: "2rem" }}>
-      <h1 style={{ color: "var(--accent)" }}>Keroma</h1>
-      <p style={{ color: "var(--muted)" }}>Kenyan Aroma</p>
-      <nav style={{ display: "grid", gap: "1rem", marginTop: "2rem" }}>
-        <Link to="/gallery/breakfast">Breakfast</Link>
-        <Link to="/gallery/lunch_dinner">Lunch &amp; Dinner</Link>
-        <Link to="/gallery/snacks">Snacks &amp; Fruits</Link>
+    <main className="home">
+      <header className="home-header">
+        <h1>KEROMA</h1>
+        <p>Kenyan Aroma</p>
+      </header>
+
+      <nav className="tiles">
+        {CATEGORIES.map((c) => {
+          const items = meals.filter((m) => m.category === c.key);
+          const cover = items[0];
+          return (
+            <Link
+              key={c.key}
+              to={`/gallery/${c.key}`}
+              className={`tile ${c.key}`}
+              style={cover ? { "--img": `url("${cover.image_url}")` } : undefined}
+            >
+              <span className="tile-label">{c.label}</span>
+              <span className="tile-count">{items.length} meals</span>
+            </Link>
+          );
+        })}
       </nav>
     </main>
   );
