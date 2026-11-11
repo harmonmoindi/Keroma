@@ -1,0 +1,12 @@
+# Node / frontend
+node_modules/
+dist/
+
+# Python / backend
+venv/
+__pycache__/
+*.pyc
+
+# Secrets and OS files
+.env
+.DS_Store
