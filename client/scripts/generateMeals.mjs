@@ -7,7 +7,7 @@ if (!root) {
   process.exit(1);
 }
 
-const BASE = "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,w_900";
+const BASE = "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200";
 
 // category value -> local folder name
 const FOLDERS = {

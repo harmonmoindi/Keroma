@@ -14,3 +14,65 @@ body {
   color: var(--text);
   font-family: system-ui, sans-serif;
 }
+
+a { color: var(--accent); }
+
+.gallery-page {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  --accent: #D9693F;
+}
+.gallery-page.breakfast { --accent: #CF9455; }
+.gallery-page.lunch_dinner { --accent: #D9693F; }
+.gallery-page.snacks { --accent: #F2B233; }
+
+.gallery-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 3px solid var(--accent);
+}
+.gallery-bar a { text-decoration: none; }
+
+.gallery {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.slide {
+  flex: 0 0 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: -30px;
+  background: var(--img) center / cover;
+  filter: blur(28px) brightness(0.45);
+}
+.slide img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.slide .name {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem 1rem 1.5rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  font-size: 1.4rem;
+}
