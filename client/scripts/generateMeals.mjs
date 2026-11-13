@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { TAGS } from "./tags.mjs";
 
 const root = process.argv[2];
 if (!root) {
@@ -32,13 +33,15 @@ function toDisplayName(slug) {
   const fixed = FIXES[slug] ?? slug;
   return fixed
     .split("-")
-    .filter((w) => w !== "healthy")
     .map((w, i) => (i > 0 && SMALL.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1)))
     .join(" ");
 }
 
 const meals = [];
 const seen = new Map();
+const slugsByCategory = Object.fromEntries(
+  Object.keys(FOLDERS).map((c) => [c, new Set()])
+);
 let id = 1;
 
 for (const [category, folder] of Object.entries(FOLDERS)) {
@@ -53,14 +56,26 @@ for (const [category, folder] of Object.entries(FOLDERS)) {
     if (/^\d+$/.test(slug)) console.warn(`Number-only file name: "${file}"`);
     if (seen.has(file)) console.warn(`Duplicate "${file}" in ${seen.get(file)} and ${category}`);
     seen.set(file, category);
+    slugsByCategory[category].add(slug);
 
     meals.push({
       id: id++,
       name: toDisplayName(slug),
       category,
       image_url: `${BASE}/${encodeURIComponent(file)}`,
-      is_healthy: slug.split("-").includes("healthy"),
+      tags: Object.keys(TAGS).filter((t) => TAGS[t][category]?.includes(slug)),
     });
+  }
+}
+
+// catch typos in tags.mjs (a name that doesn't match a file in that category)
+for (const [tag, byCategory] of Object.entries(TAGS)) {
+  for (const [category, names] of Object.entries(byCategory)) {
+    for (const name of names) {
+      if (!slugsByCategory[category]?.has(name)) {
+        console.warn(`Tag "${tag}" / ${category}: no file named "${name}"`);
+      }
+    }
   }
 }
 

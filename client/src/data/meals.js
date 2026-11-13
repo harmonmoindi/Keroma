@@ -5,1196 +5,1304 @@ export const meals = [
     "name": "Ginger Tea",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/Ginger-tea.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 2,
     "name": "Baked Beans and Toast",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/baked-beans-and-toast.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 3,
     "name": "Black Coffee and Sandwich Biscuits",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/black-coffee-and-sandwich-biscuits.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 4,
     "name": "Black Tea and Boiled Cassava",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/black-tea-and-boiled-cassava.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 5,
     "name": "Boiled Sweet Potatoes Milk and Egg Omelette",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-sweet-potatoes-milk-and-egg-omelette.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 6,
     "name": "Boiled Yellow Sweet Corn and Sweet Potatoes",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-yellow-sweet-corn-and-sweet-potatoes.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 7,
     "name": "Brown Porridge with Butter",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/brown-porridge-with-butter.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 8,
     "name": "Chai",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chai.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 9,
     "name": "Chocolate Biscuits and Milk",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chocolate-biscuits-and-milk.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 10,
     "name": "Classic Marble Cake and Hot Coffee",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/classic-marble-cake-and-hot-coffee.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 11,
     "name": "Corn Flakes Cereal with Milk",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/corn-flakes-cereal-with-milk.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 12,
     "name": "Creamy Oatmeal with Milk",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/creamy-oatmeal-with-milk.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 13,
     "name": "Crispy Fried Samosas",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crispy-fried-samosas.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 14,
     "name": "Golden Brown Folded Pancakes and Hot Milk Tea",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/golden-brown-folded-pancakes-and-hot-milk-tea.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 15,
     "name": "Half Cakes or Kangumu",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/half-cakes-or-kangumu.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 16,
     "name": "Hard Boiled Eggs with Kachumbari and Avocado",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hard-boilde-eggs-with-kachumbari-and-avocado.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 17,
     "name": "Homemade Banana Bread",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/homemade-banana-bread.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 18,
     "name": "Hot Chocolate and a Sweet Bun",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hot-chocolate-and-a-sweet-bun.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 19,
     "name": "Hot Chocolate",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hot-chocolate.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 20,
     "name": "Hot Tea and Homemade Cake",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hot-tea-and-homemade-cake.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 21,
     "name": "Hot White Tea",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hot-white-tea.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 22,
     "name": "Mandazi",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mandazi.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 23,
     "name": "Milk and Cupcakes",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/milk-and-cupcakes.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 24,
     "name": "Nestle Instant Cereal",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/nestle-instant-cereal.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 25,
     "name": "Nigerian Puff Puff",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/nigerian-puff-puff.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 26,
     "name": "Pan Fried Egg Omelette",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pan-fried-egg-omelette.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 27,
     "name": "Plain Yogurt Topped with Sliced Bananas",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/plain-yogurt-topped-with-sliced-bananas.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 28,
     "name": "Pound Cake and Milk Tea",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pound-cake-and-milk-tea.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 29,
     "name": "Red Groundnuts and Porridge",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/red-groundnuts-and-porridge.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 30,
     "name": "Rice Pudding",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/rice-pudding.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 31,
     "name": "Samosas and Spring Rolls",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/samosas-and-spring-rolls.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 32,
     "name": "Soft Scrambled Eggs with Sliced Fresh Veggies",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/soft-scrambled-eggs-with-sliced-fresh-veggies.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 33,
     "name": "Sorghum or Brown Porridge",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sorghum-or-brown-porridge.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 34,
     "name": "Spiced Milk Tea and Folded Omelette",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spiced-milk-tea-and-folded-omelette.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 35,
     "name": "Sweet Potatoes and Hot Tea",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sweet-potatoes-and-hot-tea.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 36,
     "name": "Tea Avocado and Roots",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tea-avocado-and-roots.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 37,
     "name": "Tea Cake and Milk",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tea-cake-and-milk.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 38,
     "name": "Vegetable or Masala Omelette",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/vegetable-or-masala-omelette.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 39,
     "name": "Weetabix and Milk",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/weetabix-and-milk.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 40,
     "name": "White Bread and Tripe",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-bread-and-tripe.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 41,
     "name": "White Coffee and Cream Crackers",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-coffee-and-cream-crackers.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 42,
     "name": "White Porridge with Butter",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-porridge-with-butter.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 43,
     "name": "White Porridge",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-porridge.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 44,
     "name": "Whole Roasted Maize Cob and Hot Tea",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/whole-roasted-maize-cob-and-hot-tea.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 45,
     "name": "Zambian Chikanda",
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/zambian-chikanda.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 46,
     "name": "North African Thick Stew Made with Hand Rolled Semolina Pasta Pearls",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/North-African-thick-stew-made-with-hand-rolled-semolina-pasta-pearls.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 47,
     "name": "Baked Beans and Hot Dogs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/baked-beans-and-hot-dogs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 48,
     "name": "Beans and Spaghetti",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beans-and-spaghetti.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 49,
     "name": "Beef and Potato Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beef-and-potato-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 50,
     "name": "Beef and Potatoes Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beef-and-potatoes-stew.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 51,
     "name": "Beef Curry with White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beef-curry-with-white-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 52,
     "name": "Beef Stew and Mashed Potatoes",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beef-stew-and-mashed-potatoes.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 53,
     "name": "Beef Stew and Mashed Sweet Potatoes with Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beef-stew-and-mashed-sweet-potatoes-with-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 54,
     "name": "Black Pepper Beef Noodle Stir Fry",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/black-pepper-beef-noodle-stir-fry.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 55,
     "name": "Boiled or Steamed Plantains with Scrambled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-or-steamed-plantains-with-scrambled-eggs.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 56,
     "name": "Boiled Plantain",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-plantain.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 57,
     "name": "Brown Rice Minced Meat and Potatoes",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/brown-rice-minced-meat-and-potatoes.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 58,
     "name": "Chapati and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 59,
     "name": "Chapati and Beef Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-beef-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 60,
     "name": "Chapati and Green Peas with Potatoes Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-green-peas-with-potatoes-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 61,
     "name": "Chapati and Meat Broth",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-meat-broth.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 62,
     "name": "Chapati and Red Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-red-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 63,
     "name": "Chapati and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-veggies.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 64,
     "name": "Chapati with Meat Broth",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-with-meat-broth.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 65,
     "name": "Chapatis",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapatis.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 66,
     "name": "Cheesy Baked Pasta with Ground Beef",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/cheesy-baked-pasta-with-ground-beef.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 67,
     "name": "Chicken and Bell Pepper Stir Fry Fajitas",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-and-bell-pepper-stir-fry-fajitas.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 68,
     "name": "Chicken and Bell Pepper Stir Fry",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-and-bell-pepper-stir-fry.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 69,
     "name": "Chicken and Potato Skillet",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-and-potato-skillet.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 70,
     "name": "Chicken and Veggies Sandwich",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-and-veggies-sandwich.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 71,
     "name": "Chicken Pepper Soup",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-pepper-soup.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 72,
     "name": "Chicken Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-stew.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 73,
     "name": "Chinese Stir Fry Tomato and Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chinese-stir-fry-tomato-and-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 74,
     "name": "Classic Chapati and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/classic-chapati-and-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 75,
     "name": "Classic Githeri and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/classic-githeri-and-avocado.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 76,
     "name": "Classic Ugali Sukuma and Beef",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/classic-ugali-sukuma-and-beef.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 77,
     "name": "Crispy Fried Whole Tilapia with Fresh Kachumbari",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crispy-fried-whole-tilapia-with-fresh-kachumbari.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 78,
     "name": "Egg Fried Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/egg-fried-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 79,
     "name": "Egg Stir Fry with Beef and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/egg-stir-fry-with-beef-and-white-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 80,
     "name": "Fresh Green Salad and Hard Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fresh-green-salad-and-hard-boiled-eggs.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 81,
     "name": "Fried Potatoes and Scrambled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fried-potatoes-and-scrambled-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 82,
     "name": "Fried Spaghetti and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fried-spaghetti-and-veggies.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 83,
     "name": "Githeri with Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/githeri-with-avocado.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 84,
     "name": "Githeri",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/githeri.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 85,
     "name": "Green Pea and Potato Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/green-pea-and-potato-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 86,
     "name": "Green Vegetable and Egg Fried Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/green-vegetable-and-egg-fried-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 87,
     "name": "Ground Beef and Vegetable Spaghetti",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ground-beef-and-vegetable-spaghetti.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 88,
     "name": "Ground Beef Beans and Potatoes Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ground-beef-beans-and-potatoes-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 89,
     "name": "Ground Beef Spaghetti",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ground-beef-spaghetti.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 90,
     "name": "Instant Noodles Topped with Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/instant-noodles-topped-with-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 91,
     "name": "Italian Rice Salad",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/italian-rice-salad.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 92,
     "name": "Japanese Curry Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/japanese-curry-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 93,
     "name": "Jollof Spaghetti or Stir Fry Pasta",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/jollof-spaghetti-or-stir-fry-pasta.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 94,
     "name": "Kamande or Lentils Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/kamande-or-lentils-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 95,
     "name": "Luncheon Meat and Egg Fried Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/luncheon-meat-and-egg-fried-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 96,
     "name": "Mashed Plantain and Beef Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mashed-plantain-and-beef-stew.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 97,
     "name": "Mashed Potatoes and Beef Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mashed-potatoes-and-beef-stew.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 98,
     "name": "Mashed Sweet Potatoes and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mashed-sweet-potatoes-and-beans.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 99,
     "name": "Matoke and Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/matoke-and-eggs.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 100,
     "name": "Matoke and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/matoke-and-veggies.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 101,
     "name": "Matoke",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/matoke.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 102,
     "name": "Minced Meat Stew with Cucumber Slices and Arrowroot",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/minced-meat-stew-with-cucumber-slices-and-arrowroot.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 103,
     "name": "Mokimo and Beef Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mokimo-and-beef-stew.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 104,
     "name": "Mrenda",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mrenda.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 105,
     "name": "Mutura and Nyama Choma Feast",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mutura-and-nyama-choma-feast.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 106,
     "name": "Penne Pasta Topped with Lentils",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/penne-pasta-topped-with-lentils.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 107,
     "name": "Pepper and Herbs Omelette with Rice and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pepper-and-herbs-omelette-with-rice-and-veggies.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 108,
     "name": "Pilau and Fresh Kachumbari",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pilau-and-fresh-kachumbari.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 109,
     "name": "Potato Bhajia",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/potato-bhajia.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 110,
     "name": "Potato Wedges and Sauteed Liver",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/potato-wedges-and-sauteed-liver.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 111,
     "name": "Rice and Red Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/rice-and-red-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 112,
     "name": "Rice Bowl with Stir Fry Green Beans and Minced Meat",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/rice-bowl-with-stir-fry-green-beans-and-minced-meat.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 113,
     "name": "Roasted Beef and Cassava",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-beef-and-cassava.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 114,
     "name": "Roasted Potatoes and Chicken",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-potatoes-and-chicken.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 115,
     "name": "Sauteed Chicken Liver and Bell Peppers",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sauteed-chicken-liver-and-bell-peppers.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 116,
     "name": "Seasoned Rice and Red Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/seasoned-rice-and-red-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 117,
     "name": "Sliced Okra",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-okra.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 118,
     "name": "Soft Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/soft-beans.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 119,
     "name": "Spaghetti and Sliced Hot Dogs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-and-sliced-hot-dogs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 120,
     "name": "Spaghetti Meat and Baguette Bread",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-meat-and-baguette-bread.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 121,
     "name": "Spaghetti Sliced Bell Peppers and Folded Omelette",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-sliced-bell-peppers-and-folded-omelette.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 122,
     "name": "Spanish Dish Green Peas Potatoes and Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spanish-dish-green-peas-potatoes-and-boiled-eggs.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 123,
     "name": "Spicy Fish Fry",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spicy-fish-fry.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 124,
     "name": "Steamed Squash and Vegetables",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/steamed-squash-and-vegetables.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 125,
     "name": "Steamed Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/steamed-veggies.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 126,
     "name": "Stir Fry Green Beans Minced Meat and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-green-beans-minced-meat-and-white-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 127,
     "name": "Stir Fry Green Beans White Rice and Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-green-beans-white-rice-and-boiled-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 128,
     "name": "Stir Fry Green Peas and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-green-peas-and-white-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 129,
     "name": "Stir Fry Noodles and Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-noodles-and-boiled-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 130,
     "name": "Stir Fry Spaghetti and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-spaghetti-and-veggies.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 131,
     "name": "Stir Fry Veggies and Sauteed Chicken Breast",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-veggies-and-sauteed-chicken-breast.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 132,
     "name": "Stir Fry Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-veggies.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 133,
     "name": "Tender Braised Meat and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tender-braised-meat-and-white-rice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 134,
     "name": "Tomato Fried Sukuma Wiki",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tomato-fried-sukuma-wiki.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 135,
     "name": "Tomato Spaghetti",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tomato-spaghetti.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 136,
     "name": "Tomatoes and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tomatoes-and-veggies.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 137,
     "name": "Tripe Stew Matumbo",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tripe-stew-matumbo.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 138,
     "name": "Tuna Cucumber and Tomato Salad",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tuna-cucumber-and-tomato-salad.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 139,
     "name": "Ugali and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-and-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 140,
     "name": "Ugali and Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-and-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 141,
     "name": "Ugali and Wet Fried Omena",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-and-wet-fried-omena.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 142,
     "name": "Ugali Sukuma Wiki and Scrambled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-sukuma-wiki-and-scrambled-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 143,
     "name": "Ugali Sukuma Wiki with Beef Stew and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-sukuma-wiki-with-beef-stew-and-avocado.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 144,
     "name": "Ugali Veggies and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-veggies-and-beans.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 145,
     "name": "Ugali Veggies and Omena",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-veggies-and-omena.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 146,
     "name": "Ugali Veggies and Scrambled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-veggies-and-scrambled-eggs.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 147,
     "name": "Ugali with Cabbage and Beef",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-with-cabbage-and-beef.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 148,
     "name": "Ugali with Veggies and Beef",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-with-veggies-and-beef.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 149,
     "name": "White Rice and Green Peas Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-and-green-peas-stew.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 150,
     "name": "White Rice and Njahi Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-and-njahi-beans.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 151,
     "name": "White Rice Beans with Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-beans-with-avocado.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 152,
     "name": "White Rice Green Peas and Potatoes",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-green-peas-and-potatoes.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 153,
     "name": "White Rice Minced Meat and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-miced-meat-and-avocado.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 154,
     "name": "White Rice Scrambled Eggs and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-scrambled-eggs-and-avocado.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 155,
     "name": "Yellow Rice Chicken and Potatoes",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/yellowrice-chicken-and-potatoes.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 156,
     "name": "Bread Stuffed with Cadbury Chocolate and Tea",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/bread-stuffed-with-cadburry-chocolate-and-tea.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 157,
     "name": "Coca Cola and Cupcakes",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/cocacola-and-cupcakes.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 158,
     "name": "Crispy Samosas and Spring Rolls",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crispy-samosas-and-spring-rolls.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 159,
     "name": "Crispy Samosas",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crispy-samosas.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 160,
     "name": "Fresh Coconut Chunks",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fresh-coconut-chunks.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 161,
     "name": "Hard Boiled Eggs and Boiled Potato Slices",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hard-boiled-eggs-and-boiled-potato-slices.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 162,
     "name": "Ice Cream",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/icecream.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 163,
     "name": "Lemonade",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/lemonade.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 164,
     "name": "Pineapple Slices and Spicy Salt",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pineapple-slices-and-spicy-salt.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 165,
     "name": "Pound Cake and Orange Juice",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pound-cake-and-orange-juice.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 166,
     "name": "Rectangular Biscuits Soaked in Milk",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/rectangular-biscuits-soaked-in-milk.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 167,
     "name": "Seasoned Pineapple Slices",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/seasoned-pineapple-slices.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 168,
     "name": "Simsim or Til Ke Laddu",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/simsim-or-til-ke-laddu.jpg",
-    "is_healthy": false
+    "tags": []
   },
   {
     "id": 169,
     "name": "Sliced Fresh Fruits",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-fresh-fruits.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 170,
     "name": "Sliced Papaya",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-papaya.jpg",
-    "is_healthy": false
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 171,
     "name": "Smocha Smokie with Chapati and Kachumbari",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/smocha-smokie-with-chapati-and-kachumbari.jpg",
-    "is_healthy": false
+    "tags": []
   }
 ];
