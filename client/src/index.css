@@ -200,15 +200,28 @@ a { color: var(--accent); }
   text-align: center;
   overflow: hidden;
 }
-.landing::before {
+
+.mosaic {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+}
+.mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mosaic::after {
   content: "";
   position: absolute;
-  inset: -30px;
-  background:
-    linear-gradient(rgba(21, 17, 14, 0.55), rgba(21, 17, 14, 0.9)),
-    var(--img) center / cover;
-  filter: blur(6px);
+  inset: 0;
+  background: rgba(21, 17, 14, 0.82);
 }
+
 .landing-content { position: relative; max-width: 28rem; }
 .landing h1 { color: var(--accent); letter-spacing: 0.3em; font-size: 2.6rem; }
 .tagline { color: var(--muted); letter-spacing: 0.15em; margin-top: 0.5rem; }
