@@ -237,3 +237,12 @@ a { color: var(--accent); }
   text-decoration: none;
 }
 .cta:hover { filter: brightness(1.1); }
+
+.status {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+}

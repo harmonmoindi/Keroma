@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { getMeals } from "../data/sessionMeals";
+import { useMeals } from "../context/mealsContext";
 
 // small square version of the image, so the mosaic loads fast
 const thumb = (url) => url.replace("c_limit,w_1200", "c_fill,g_auto,w_500,h_500");
 
 export default function Landing() {
-  const tiles = getMeals().slice(0, 20);
+  const { meals } = useMeals();
+  const tiles = meals.slice(0, 20);
 
   return (
     <main className="landing">

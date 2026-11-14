@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getMeals } from "../data/sessionMeals";
+import { useMeals } from "../context/mealsContext";
 import { shuffle } from "../utils/shuffle";
 import MealSlide from "../components/MealSlide";
 
@@ -24,9 +24,10 @@ export default function Gallery() {
   const [activeTags, setActiveTags] = useState([]);
   const [shuffled, setShuffled] = useState(null);
   const galleryRef = useRef(null);
+  const { meals } = useMeals();
 
   // a freshly shuffled order while a toggle is on, the normal session order otherwise
-  const source = shuffled ?? getMeals();
+  const source = shuffled ?? meals;
   const list = source.filter(
     (m) => m.category === category && activeTags.every((t) => m.tags.includes(t))
   );
@@ -36,7 +37,7 @@ export default function Gallery() {
       ? activeTags.filter((t) => t !== key)
       : [...activeTags, key];
     setActiveTags(next);
-    setShuffled(next.length > 0 ? shuffle(getMeals()) : null);
+    setShuffled(next.length > 0 ? shuffle(meals) : null);
   }
 
   // jump back to the first meal whenever the filter or category changes
