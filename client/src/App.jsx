@@ -12,7 +12,13 @@ function Gate({ children }) {
   const { status } = useMeals();
 
   if (status === "loading") {
-    return <p className="status">Loading meals…</p>;
+    return (
+      <p className="status">
+        Loading meals…
+        <br />
+        The server can take up to a minute to wake up on the first visit.
+      </p>
+    );
   }
   if (status === "error") {
     return (
