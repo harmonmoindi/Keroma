@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import { useMeals } from "../context/mealsContext";
+import { useAuth } from "../context/authContext";
 
 // small square version of the image, so the mosaic loads fast
 const thumb = (url) => url.replace("c_limit,w_1200", "c_fill,g_auto,w_500,h_500");
 
 export default function Landing() {
+  const { user } = useAuth();
   const { meals } = useMeals();
   const tiles = meals.slice(0, 20);
 
@@ -23,7 +25,7 @@ export default function Landing() {
           Can't decide what to eat? Browse home-cooked Kenyan meals until
           something looks right.
         </p>
-        <Link to="/categories" className="cta">
+        <Link to={user ? "/categories" : "/login"} className="cta">
           Get started
         </Link>
       </div>

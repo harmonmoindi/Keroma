@@ -246,3 +246,48 @@ a { color: var(--accent); }
   text-align: center;
   color: var(--muted);
 }
+
+/* ---------- login / sign up ---------- */
+.auth {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 2rem 1.25rem;
+}
+.auth-card {
+  width: 100%;
+  max-width: 22rem;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+}
+.auth-card h1 { color: var(--accent); letter-spacing: 0.3em; font-size: 2rem; }
+.auth-card label {
+  display: grid;
+  gap: 0.35rem;
+  text-align: left;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.auth-card input {
+  padding: 0.75rem 0.9rem;
+  border: 1.5px solid #3a2f26;
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+}
+.auth-card input:focus { outline: none; border-color: var(--accent); }
+.auth-error { color: #E5483A; font-size: 0.95rem; }
+.auth-card .cta { border: none; cursor: pointer; font-size: 1rem; }
+.auth-card .cta:disabled { opacity: 0.6; cursor: wait; }
+
+.link-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+.home-header .link-btn { margin-top: 0.75rem; }
+

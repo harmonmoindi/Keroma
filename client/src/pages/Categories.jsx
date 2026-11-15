@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useMeals } from "../context/mealsContext";
+import { useAuth } from "../context/authContext";
 
 const CATEGORIES = [
   { key: "breakfast", label: "Breakfast" },
@@ -8,12 +9,14 @@ const CATEGORIES = [
 ];
 
 export default function Categories() {
+  const { logout } = useAuth();
   const { meals } = useMeals();
   return (
     <main className="home">
       <header className="home-header">
         <h1>KEROMA</h1>
         <p>Kenyan Aroma</p>
+        <button className="link-btn" onClick={logout}>Log out</button>
       </header>
 
       <nav className="tiles">
