@@ -2,6 +2,11 @@ import os
 import re
 from contextlib import closing
 from datetime import timedelta
+import hashlib
+import secrets
+import threading
+
+import requests
 
 import psycopg2
 import psycopg2.extras
@@ -38,6 +43,8 @@ JWTManager(app)
 limiter = Limiter(get_remote_address, app=app, storage_uri="memory://")
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+RESET_MINUTES = 30
+FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173")
 
 
 @app.errorhandler(429)
@@ -54,6 +61,32 @@ def read_credentials():
     email = (data.get("email") or "").strip().lower()
     password = data.get("password") or ""
     return email, password
+
+def hash_token(token):
+    return hashlib.sha256(token.encode()).hexdigest()
+
+
+def send_email(to_email, subject, html):
+    api_key = os.environ.get("BREVO_API_KEY")
+    sender_email = os.environ.get("MAIL_SENDER_EMAIL")
+    if not api_key or not sender_email:
+        app.logger.warning("Email is not configured, so nothing was sent to %s", to_email)
+        return
+    try:
+        resp = requests.post(
+            "https://api.brevo.com/v3/smtp/email",
+            headers={"api-key": api_key, "accept": "application/json"},
+            json={
+                "sender": {"name": "Keroma", "email": sender_email},
+                "to": [{"email": to_email}],
+                "subject": subject,
+                "htmlContent": html,
+            },
+            timeout=10,
+        )
+        resp.raise_for_status()
+    except requests.RequestException:
+        app.logger.exception("Could not send email to %s", to_email)
 
 
 @app.route("/api/health")
@@ -147,3 +180,95 @@ def me():
     if user is None:
         return jsonify({"error": "User not found."}), 404
     return jsonify(user)
+
+@app.route("/api/forgot-password", methods=["POST"])
+@limiter.limit(
+    "5 per hour",
+    error_message="Too many reset requests. Please try again later.",
+)
+def forgot_password():
+    email, _ = read_credentials()
+    if not EMAIL_RE.match(email):
+        return jsonify({"error": "Enter a valid email address."}), 400
+
+    with closing(get_connection()) as conn:
+        with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+            cur.execute("SELECT id FROM users WHERE email = %s", (email,))
+            user = cur.fetchone()
+
+            if user:
+                token = secrets.token_urlsafe(32)
+                # only the newest link should work
+                cur.execute(
+                    "DELETE FROM password_resets WHERE user_id = %s AND used_at IS NULL",
+                    (user["id"],),
+                )
+                cur.execute(
+                    "INSERT INTO password_resets (user_id, token_hash, expires_at) "
+                    "VALUES (%s, %s, now() + %s * interval '1 minute')",
+                    (user["id"], hash_token(token), RESET_MINUTES),
+                )
+                conn.commit()
+
+                link = f"{FRONTEND_URL}/reset-password?token={token}"
+                if app.debug and not os.environ.get("BREVO_API_KEY"):
+                    app.logger.info("DEV ONLY reset link for %s: %s", email, link)
+
+                html = (
+                    "<p>Hi,</p>"
+                    "<p>We got a request to reset your Keroma password. "
+                    f"This link works for {RESET_MINUTES} minutes:</p>"
+                    f'<p><a href="{link}">Reset my password</a></p>'
+                    "<p>If you didn't ask for this, you can ignore this email. "
+                    "Your password won't change.</p>"
+                )
+                # sent in the background so the reply takes the same time either way
+                threading.Thread(
+                    target=send_email,
+                    args=(email, "Reset your Keroma password", html),
+                    daemon=True,
+                ).start()
+
+    return jsonify(
+        {"message": "If that email has an account, a reset link is on its way."}
+    )
+
+
+@app.route("/api/reset-password", methods=["POST"])
+@limiter.limit(
+    "10 per hour",
+    error_message="Too many attempts. Please try again later.",
+)
+def reset_password():
+    data = request.get_json(silent=True) or {}
+    token = data.get("token") or ""
+    password = data.get("password") or ""
+
+    if len(password) < 8:
+        return jsonify({"error": "Password must be at least 8 characters."}), 400
+
+    with closing(get_connection()) as conn:
+        with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+            cur.execute(
+                "SELECT id, user_id FROM password_resets "
+                "WHERE token_hash = %s AND used_at IS NULL AND expires_at > now() "
+                "FOR UPDATE",
+                (hash_token(token),),
+            )
+            row = cur.fetchone()
+            if row is None:
+                return jsonify({
+                    "error": "This reset link is invalid or has expired. Please request a new one."
+                }), 400
+
+            cur.execute(
+                "UPDATE users SET password_hash = %s WHERE id = %s",
+                (generate_password_hash(password), row["user_id"]),
+            )
+            cur.execute(
+                "UPDATE password_resets SET used_at = now() WHERE id = %s",
+                (row["id"],),
+            )
+        conn.commit()
+
+    return jsonify({"message": "Password updated. You can now log in."})
