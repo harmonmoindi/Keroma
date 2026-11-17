@@ -291,3 +291,5 @@ a { color: var(--accent); }
 }
 .home-header .link-btn { margin-top: 0.75rem; }
 
+.auth-message { color: var(--accent); font-size: 0.95rem; }
+

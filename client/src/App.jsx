@@ -7,6 +7,8 @@ import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Categories from "./pages/Categories";
 import Gallery from "./pages/Gallery";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 function Gate({ children }) {
   const { status } = useMeals();
@@ -38,6 +40,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
             <Route
               path="/categories"
               element={

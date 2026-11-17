@@ -22,3 +22,7 @@ export const login = (email, password) => postJson("/api/login", { email, passwo
 export const signup = (email, password) => postJson("/api/signup", { email, password });
 export const fetchMe = (token) =>
   request("/api/me", { headers: { Authorization: `Bearer ${token}` } });
+export const forgotPassword = (email) =>
+  postJson("/api/forgot-password", { email });
+export const resetPassword = (token, password) =>
+  postJson("/api/reset-password", { token, password });

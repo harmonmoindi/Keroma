@@ -83,6 +83,7 @@ export default function Login() {
             : "Already have an account? Log in"}
         </button>
 
+        {mode === "login" && <Link to="/forgot-password">Forgot password?</Link>}
         <Link to="/">← Back</Link>
       </form>
     </main>
