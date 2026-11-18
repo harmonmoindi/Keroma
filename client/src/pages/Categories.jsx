@@ -6,6 +6,7 @@ const CATEGORIES = [
   { key: "breakfast", label: "Breakfast" },
   { key: "lunch_dinner", label: "Lunch & Dinner" },
   { key: "snacks", label: "Snacks & Fruits" },
+  { key: "pets", label: "Pets", comingSoon: true },
 ];
 
 export default function Categories() {
@@ -21,6 +22,18 @@ export default function Categories() {
 
       <nav className="tiles">
         {CATEGORIES.map((c) => {
+          if (c.comingSoon) {
+            return (
+              <div
+                key={c.key}
+                className={`tile ${c.key} coming-soon`}
+                aria-disabled="true"
+              >
+                <span className="tile-label">{c.label}</span>
+                <span className="tile-count">Coming soon</span>
+              </div>
+            );
+          }
           const items = meals.filter((m) => m.category === c.key);
           const cover = items[0];
           return (

@@ -1,3 +1,6 @@
+-- FOR A BRAND-NEW EMPTY DATABASE ONLY. It drops the meal tables first.
+-- For an existing database, use the seed (it never drops anything).
+
 DROP TABLE IF EXISTS meal_tags;
 DROP TABLE IF EXISTS tags;
 DROP TABLE IF EXISTS meals;
@@ -6,8 +9,9 @@ CREATE TABLE meals (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
   category TEXT NOT NULL
-    CHECK (category IN ('breakfast', 'lunch_dinner', 'snacks')),
-  image_url TEXT NOT NULL UNIQUE
+    CHECK (category IN ('breakfast', 'lunch_dinner', 'snacks', 'pets')),
+  image_url TEXT NOT NULL UNIQUE,
+  file_name TEXT NOT NULL UNIQUE
 );
 
 CREATE TABLE tags (
