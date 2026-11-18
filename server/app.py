@@ -85,8 +85,9 @@ def send_email(to_email, subject, html):
             timeout=10,
         )
         resp.raise_for_status()
-    except requests.RequestException:
-        app.logger.exception("Could not send email to %s", to_email)
+    except requests.RequestException as err:
+        detail = err.response.text if err.response is not None else ""
+        app.logger.error("Could not send email to %s: %s %s", to_email, err, detail)
 
 
 @app.route("/api/health")
