@@ -303,3 +303,24 @@ a { color: var(--accent); }
 .tile.coming-soon { cursor: default; opacity: 0.75; }
 .tile.coming-soon:hover::before { transform: none; }
 
+a.link-btn { text-decoration: none; }
+.home-actions { display: flex; justify-content: center; gap: 1.25rem; margin-top: 0.75rem; }
+.home-actions .link-btn { margin-top: 0; }
+
+.auth-card textarea {
+  padding: 0.75rem 0.9rem;
+  border: 1.5px solid #3a2f26;
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  resize: vertical;
+}
+.auth-card textarea:focus { outline: none; border-color: var(--accent); }
+
+.rating { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.25rem; }
+.rating p { width: 100%; margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem; }
+.star { background: none; border: none; font-size: 1.8rem; color: #3a2f26; cursor: pointer; }
+.star.on { color: var(--accent); }
+.counter { text-align: right; color: var(--muted); font-size: 0.8rem; }
+

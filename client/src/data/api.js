@@ -26,3 +26,21 @@ export const forgotPassword = (email) =>
   postJson("/api/forgot-password", { email });
 export const resetPassword = (token, password) =>
   postJson("/api/reset-password", { token, password });
+
+const TOKEN_KEY = "keroma_token"; // must match the key used in AuthProvider
+
+function authHeaders() {
+  try {
+    const token = localStorage.getItem(TOKEN_KEY);
+    return token ? { Authorization: `Bearer ${token}` } : {};
+  } catch {
+    return {};
+  }
+}
+
+export const sendFeedback = (rating, message) =>
+  request("/api/feedback", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...authHeaders() },
+    body: JSON.stringify({ rating, message }),
+  });

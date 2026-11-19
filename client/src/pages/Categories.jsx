@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useMeals } from "../context/mealsContext";
 import { useAuth } from "../context/authContext";
+import { FEEDBACK_ENABLED } from "../config";
 
 const CATEGORIES = [
   { key: "breakfast", label: "Breakfast" },
@@ -17,7 +18,12 @@ export default function Categories() {
       <header className="home-header">
         <h1>KEROMA</h1>
         <p>Kenyan Aroma</p>
-        <button className="link-btn" onClick={logout}>Log out</button>
+        <div className="home-actions">
+          <button className="link-btn" onClick={logout}>Log out</button>
+          {FEEDBACK_ENABLED && (
+            <Link to="/feedback" className="link-btn">Send feedback</Link>
+          )}
+        </div>
       </header>
 
       <nav className="tiles">

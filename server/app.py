@@ -18,6 +18,7 @@ from flask_jwt_extended import (
     create_access_token,
     get_jwt_identity,
     jwt_required,
+    verify_jwt_in_request,
 )
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
@@ -45,6 +46,7 @@ limiter = Limiter(get_remote_address, app=app, storage_uri="memory://")
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 RESET_MINUTES = 30
 FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173")
+FEEDBACK_ENABLED = os.environ.get("FEEDBACK_ENABLED", "true").lower() == "true"
 
 
 @app.errorhandler(429)
@@ -64,6 +66,11 @@ def read_credentials():
 
 def hash_token(token):
     return hashlib.sha256(token.encode()).hexdigest()
+
+def user_key():
+    # rate-limit by logged-in user when possible, so classmates on one Wi-Fi don't share a limit
+    verify_jwt_in_request(optional=True)
+    return get_jwt_identity() or get_remote_address()
 
 
 def send_email(to_email, subject, html):
@@ -273,3 +280,38 @@ def reset_password():
         conn.commit()
 
     return jsonify({"message": "Password updated. You can now log in."})
+
+@app.route("/api/feedback", methods=["POST"])
+@limiter.limit(
+    "5 per hour",
+    key_func=user_key,
+    error_message="You've sent a lot of feedback just now. Please try again later.",
+)
+@jwt_required()
+def submit_feedback():
+    if not FEEDBACK_ENABLED:
+        return jsonify({"error": "Feedback is closed. Thank you!"}), 404
+
+    data = request.get_json(silent=True) or {}
+    message = (data.get("message") or "").strip()
+    rating = data.get("rating")
+
+    if not message:
+        return jsonify({"error": "Please write a message."}), 400
+    if len(message) > 2000:
+        return jsonify({"error": "Please keep your message under 2000 characters."}), 400
+    if rating is not None and (
+        isinstance(rating, bool) or not isinstance(rating, int) or not 1 <= rating <= 5
+    ):
+        return jsonify({"error": "Rating must be a whole number from 1 to 5."}), 400
+
+    user_id = int(get_jwt_identity())
+    with closing(get_connection()) as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "INSERT INTO feedback (user_id, rating, message) VALUES (%s, %s, %s)",
+                (user_id, rating, message),
+            )
+        conn.commit()
+
+    return jsonify({"message": "Thank you! Your feedback was sent."}), 201

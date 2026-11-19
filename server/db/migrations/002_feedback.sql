@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS feedback (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
+  rating SMALLINT CHECK (rating BETWEEN 1 AND 5),
+  message TEXT NOT NULL CHECK (char_length(message) BETWEEN 1 AND 2000),
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
