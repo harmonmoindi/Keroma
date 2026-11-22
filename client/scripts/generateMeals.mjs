@@ -15,6 +15,7 @@ const FOLDERS = {
   breakfast: "breakfast",
   lunch_dinner: "lunch_and_dinner",
   snacks: "snacks_and_fruits",
+  smoothies: "smoothies",
 };
 
 // Fix typos in the DISPLAY name only (the URL still uses the real file name)

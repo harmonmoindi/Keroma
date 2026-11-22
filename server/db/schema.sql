@@ -9,7 +9,7 @@ CREATE TABLE meals (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
   category TEXT NOT NULL
-    CHECK (category IN ('breakfast', 'lunch_dinner', 'snacks', 'pets')),
+    CHECK (category IN ('breakfast', 'lunch_dinner', 'snacks', 'smoothies', 'pets')),
   image_url TEXT NOT NULL UNIQUE,
   file_name TEXT NOT NULL UNIQUE
 );

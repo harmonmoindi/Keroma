@@ -8,6 +8,7 @@ const TITLES = {
   breakfast: "Breakfast",
   lunch_dinner: "Lunch & Dinner",
   snacks: "Snacks & Fruits",
+  smoothies: "Smoothies",
 };
 
 // To add a toggle: add an entry here, and a list for the same key in scripts/tags.mjs

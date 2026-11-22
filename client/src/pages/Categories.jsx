@@ -7,7 +7,14 @@ const CATEGORIES = [
   { key: "breakfast", label: "Breakfast" },
   { key: "lunch_dinner", label: "Lunch & Dinner" },
   { key: "snacks", label: "Snacks & Fruits" },
-  { key: "pets", label: "Pets", comingSoon: true },
+  { key: "smoothies", label: "Smoothies" },
+  {
+    key: "pets",
+    label: "Pets",
+    comingSoon: true,
+    cover:
+      "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_fill,g_auto,w_800,h_600/pets-cover.jpg",
+  },
 ];
 
 export default function Categories() {
@@ -34,6 +41,7 @@ export default function Categories() {
                 key={c.key}
                 className={`tile ${c.key} coming-soon`}
                 aria-disabled="true"
+                style={c.cover ? { "--img": `url("${c.cover}")` } : undefined}
               >
                 <span className="tile-label">{c.label}</span>
                 <span className="tile-count">Coming soon</span>
