@@ -116,7 +116,9 @@ export const meals = [
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-and-apple-slices.jpg",
     "file_name": "coffee-and-apple-slices.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 15,
@@ -164,7 +166,9 @@ export const meals = [
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/eggs-topped-with-melted-cheese-and-avocado.jpg",
     "file_name": "eggs-topped-with-melted-cheese-and-avocado.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 21,
@@ -302,7 +306,9 @@ export const meals = [
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/oats-bananas-and-nuts.jpg",
     "file_name": "oats-bananas-and-nuts.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 38,
@@ -370,7 +376,9 @@ export const meals = [
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/scrambled-eggs-nduma-and-tea.jpg",
     "file_name": "scrambled-eggs-nduma-and-tea.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 46,
@@ -412,7 +420,9 @@ export const meals = [
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spinach-feta-omelet.jpg",
     "file_name": "spinach-feta-omelet.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 51,
@@ -420,7 +430,9 @@ export const meals = [
     "category": "breakfast",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/strong-tea.jpg",
     "file_name": "strong-tea.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 52,
@@ -578,7 +590,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/asian-style-carrot-and-cucumber-ribbon-salad.jpg",
     "file_name": "asian-style-carrot-and-cucumber-ribbon-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 71,
@@ -586,7 +602,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/avocado-and-boiled-egg-salad.jpg",
     "file_name": "avocado-and-boiled-egg-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 72,
@@ -594,7 +614,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/avocado-egg-and-tomato-salad.jpg",
     "file_name": "avocado-egg-and-tomato-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 73,
@@ -634,7 +658,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/beans-and-spaghetti.jpg",
     "file_name": "beans-and-spaghetti.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 78,
@@ -694,7 +720,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-corn-or-maize.jpg",
     "file_name": "boiled-corn-or-maize.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "no_meat"
+    ]
   },
   {
     "id": 85,
@@ -703,7 +732,9 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-or-steamed-plantains-with-scrambled-eggs.jpg",
     "file_name": "boiled-or-steamed-plantains-with-scrambled-eggs.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light",
+      "no_meat"
     ]
   },
   {
@@ -722,7 +753,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-plantains-scrambled-eggs-and-avocado.jpg",
     "file_name": "boiled-plantains-scrambled-eggs-and-avocado.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 88,
@@ -730,7 +765,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/bok-choy-and-mushroom-stir-fry.jpg",
     "file_name": "bok-choy-and-mushroom-stir-fry.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 89,
@@ -746,7 +785,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/cajun-style-garlic-butter-seafood-boil.jpg",
     "file_name": "cajun-style-garlic-butter-seafood-boil.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 91,
@@ -754,7 +795,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/carrot-sticks-eggs-and-mandarins.jpg",
     "file_name": "carrot-sticks-eggs-and-mandarins.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 92,
@@ -794,7 +839,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-red-beans.jpg",
     "file_name": "chapati-and-red-beans.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 97,
@@ -802,7 +849,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chapati-and-veggies.jpg",
     "file_name": "chapati-and-veggies.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 98,
@@ -872,7 +921,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chicken-and-veggies-sandwich.jpg",
     "file_name": "chicken-and-veggies-sandwich.jpg",
-    "tags": []
+    "tags": [
+      "light"
+    ]
   },
   {
     "id": 106,
@@ -924,7 +975,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/chinese-style-spicy-cauliflower-stir-fry.jpg",
     "file_name": "chinese-style-spicy-cauliflower-stir-fry.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 112,
@@ -940,7 +995,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/classic-chapati-and-beans.jpg",
     "file_name": "classic-chapati-and-beans.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 114,
@@ -949,7 +1006,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/classic-githeri-and-avocado.jpg",
     "file_name": "classic-githeri-and-avocado.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -974,7 +1032,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crusted-fish-fillet-with-shredded-cabbage.jpg",
     "file_name": "crusted-fish-fillet-with-shredded-cabbage.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light"
+    ]
   },
   {
     "id": 118,
@@ -1006,7 +1067,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/eggs-with-bananas-and-watermelon-slices.jpg",
     "file_name": "eggs-with-bananas-and-watermelon-slices.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 122,
@@ -1014,7 +1079,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fish-and-plantain-pepper-soup.jpg",
     "file_name": "fish-and-plantain-pepper-soup.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 123,
@@ -1023,7 +1090,9 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fresh-green-salad-and-hard-boiled-eggs.jpg",
     "file_name": "fresh-green-salad-and-hard-boiled-eggs.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light",
+      "no_meat"
     ]
   },
   {
@@ -1032,7 +1101,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fried-plantain-and-fish.jpg",
     "file_name": "fried-plantain-and-fish.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light"
+    ]
   },
   {
     "id": 125,
@@ -1048,7 +1120,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fried-spaghetti-and-veggies.jpg",
     "file_name": "fried-spaghetti-and-veggies.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 127,
@@ -1081,7 +1155,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/githeri-with-avocado.jpg",
     "file_name": "githeri-with-avocado.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1091,7 +1166,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/githeri.jpg",
     "file_name": "githeri.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1108,7 +1184,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/glazed-chicken-wings.jpg",
     "file_name": "glazed-chicken-wings.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light"
+    ]
   },
   {
     "id": 134,
@@ -1124,7 +1203,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/golden-brown-fish-fillets.jpg",
     "file_name": "golden-brown-fish-fillets.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 136,
@@ -1140,7 +1221,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/green-pea-and-potato-stew.jpg",
     "file_name": "green-pea-and-potato-stew.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 138,
@@ -1148,7 +1231,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/green-pepper-chicken.jpg",
     "file_name": "green-pepper-chicken.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 139,
@@ -1156,7 +1241,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/green-vegetable-and-egg-fried-rice.jpg",
     "file_name": "green-vegetable-and-egg-fried-rice.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 140,
@@ -1164,7 +1251,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/grilled-chicken-and-plantain.jpg",
     "file_name": "grilled-chicken-and-plantain.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 141,
@@ -1172,7 +1261,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ground-beef-and-cucumber-salad.jpg",
     "file_name": "ground-beef-and-cucumber-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light"
+    ]
   },
   {
     "id": 142,
@@ -1212,7 +1304,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/instant-noodle-soup.jpg",
     "file_name": "instant-noodle-soup.jpg",
-    "tags": []
+    "tags": [
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 147,
@@ -1220,7 +1315,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/instant-noodle-topped-chicken-eggs-and-broccoli.jpg",
     "file_name": "instant-noodle-topped-chicken-eggs-and-broccoli.jpg",
-    "tags": []
+    "tags": [
+      "light"
+    ]
   },
   {
     "id": 148,
@@ -1252,7 +1349,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/jeera-rice-with-green-peas.jpg",
     "file_name": "jeera-rice-with-green-peas.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 152,
@@ -1260,7 +1359,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/jollof-spaghetti-or-stir-fry-pasta.jpg",
     "file_name": "jollof-spaghetti-or-stir-fry-pasta.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 153,
@@ -1268,7 +1369,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/kamande-or-lentils-stew.jpg",
     "file_name": "kamande-or-lentils-stew.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 154,
@@ -1303,7 +1406,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mashed-potatoes-and-beef-stew.jpg",
     "file_name": "mashed-potatoes-and-beef-stew.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light"
     ]
   },
   {
@@ -1313,7 +1417,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mashed-sweet-potatoes-and-beans.jpg",
     "file_name": "mashed-sweet-potatoes-and-beans.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1323,7 +1428,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/matoke-and-eggs.jpg",
     "file_name": "matoke-and-eggs.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1333,7 +1439,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/matoke-and-veggies.jpg",
     "file_name": "matoke-and-veggies.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1343,7 +1450,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/matoke.jpg",
     "file_name": "matoke.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1360,7 +1468,10 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mexican-barbecue-chicken-skewers.jpg",
     "file_name": "mexican-barbecue-chicken-skewers.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light"
+    ]
   },
   {
     "id": 164,
@@ -1389,7 +1500,8 @@ export const meals = [
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mrenda.jpg",
     "file_name": "mrenda.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
@@ -1414,7 +1526,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/one-pot-rice-potato-meal.jpg",
     "file_name": "one-pot-rice-potato-meal.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 170,
@@ -1422,7 +1536,11 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pan-fried-omelet-with-tomatoes-and-onions.jpg",
     "file_name": "pan-fried-omelet-with-tomatoes-and-onions.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
     "id": 171,
@@ -1438,7 +1556,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pepper-and-herbs-omelette-with-rice-and-veggies.jpg",
     "file_name": "pepper-and-herbs-omelette-with-rice-and-veggies.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 173,
@@ -1478,7 +1598,9 @@ export const meals = [
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/potato-bhajia.jpg",
     "file_name": "potato-bhajia.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
     "id": 178,
@@ -1490,30 +1612,28 @@ export const meals = [
   },
   {
     "id": 179,
-    "name": "Potato Wrapped Mini Hot Dogs",
-    "category": "lunch_dinner",
-    "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/potato-wrapped-mini-hot-dogs.jpg",
-    "file_name": "potato-wrapped-mini-hot-dogs.jpg",
-    "tags": []
-  },
-  {
-    "id": 180,
     "name": "Pumpkin Boiled Eggs and Ripe Banana",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pumpkin-boiled-eggs-and-ripe-banana.jpg",
     "file_name": "pumpkin-boiled-eggs-and-ripe-banana.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 181,
+    "id": 180,
     "name": "Rice and Red Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/rice-and-red-beans.jpg",
     "file_name": "rice-and-red-beans.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 182,
+    "id": 181,
     "name": "Rice Bowl with Stir Fry Green Beans and Minced Meat",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/rice-bowl-with-stir-fry-green-beans-and-minced-meat.jpg",
@@ -1521,7 +1641,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 183,
+    "id": 182,
     "name": "Roasted Beef and Cassava",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-beef-and-cassava.jpg",
@@ -1531,23 +1651,29 @@ export const meals = [
     ]
   },
   {
-    "id": 184,
+    "id": 183,
     "name": "Roasted Chickpea and Avocado Salad",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-chickpea-and-avocado-salad.jpg",
     "file_name": "roasted-chickpea-and-avocado-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 185,
+    "id": 184,
     "name": "Roasted or Fried Poultry",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-or-fried-poultry.jpg",
     "file_name": "roasted-or-fried-poultry.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 186,
+    "id": 185,
     "name": "Roasted Potatoes and Chicken",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-potatoes-and-chicken.jpg",
@@ -1555,31 +1681,37 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 187,
+    "id": 186,
     "name": "Roasted Sausage and Vegetable Skillet",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/roasted-sausage-and-vegetable-skillet.jpg",
     "file_name": "roasted-sausage-and-vegetable-skillet.jpg",
-    "tags": []
+    "tags": [
+      "light"
+    ]
   },
   {
-    "id": 188,
+    "id": 187,
     "name": "Sausage Rounds Fried Potatoes and Sliced Onions",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sausage-rounds-fried-potatoes-and-sliced-onions.jpg",
     "file_name": "sausage-rounds-fried-potatoes-and-sliced-onions.jpg",
-    "tags": []
+    "tags": [
+      "light"
+    ]
   },
   {
-    "id": 189,
+    "id": 188,
     "name": "Sausage Zucchini and Bell Pepper Rice Bowl",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sausage-zucchini-and-bell-pepper-rice-bowl.jpg",
     "file_name": "sausage-zucchini-and-bell-pepper-rice-bowl.jpg",
-    "tags": []
+    "tags": [
+      "light"
+    ]
   },
   {
-    "id": 190,
+    "id": 189,
     "name": "Sauteed Chicken Liver and Bell Peppers",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sauteed-chicken-liver-and-bell-peppers.jpg",
@@ -1589,57 +1721,74 @@ export const meals = [
     ]
   },
   {
-    "id": 191,
+    "id": 190,
     "name": "Sauteed Green Beans and Sliced Mushrooms",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sauteed-green-beans-and-sliced-mushrooms.jpg",
     "file_name": "sauteed-green-beans-and-sliced-mushrooms.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 192,
+    "id": 191,
     "name": "Sauteed Sukuma Wiki",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sauteed-sukuma-wiki.jpg",
     "file_name": "sauteed-sukuma-wiki.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "no_meat"
+    ]
   },
   {
-    "id": 193,
+    "id": 192,
     "name": "Scrambled Eggs and Ugali",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/scrambled-eggs-and-ugali.jpg",
     "file_name": "scrambled-eggs-and-ugali.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 194,
+    "id": 193,
     "name": "Seasoned Rice and Red Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/seasoned-rice-and-red-beans.jpg",
     "file_name": "seasoned-rice-and-red-beans.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 195,
+    "id": 194,
     "name": "Sliced Grilled Eggplant Lentils and Green Olives",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-grilled-eggplant-lentils-and-green-olives.jpg",
     "file_name": "sliced-grilled-eggplant-lentils-and-green-olives.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 196,
+    "id": 195,
     "name": "Sliced Okra",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-okra.jpg",
     "file_name": "sliced-okra.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light",
+      "no_meat"
     ]
   },
   {
-    "id": 197,
+    "id": 196,
     "name": "Sliced Pizza Topped with Melted Cheese and Dried Herbs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-pizza-topped-with-melted-cheese-and-dried-herbs.jpg",
@@ -1647,7 +1796,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 198,
+    "id": 197,
     "name": "Slow Braised Meat and Bone",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/slow-braised-meat-and-bone.jpg",
@@ -1655,17 +1804,18 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 199,
+    "id": 198,
     "name": "Soft Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/soft-beans.jpg",
     "file_name": "soft-beans.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
-    "id": 200,
+    "id": 199,
     "name": "Spaghetti and Sliced Hot Dogs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-and-sliced-hot-dogs.jpg",
@@ -1673,7 +1823,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 201,
+    "id": 200,
     "name": "Spaghetti Meat and Baguette Bread",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-meat-and-baguette-bread.jpg",
@@ -1681,15 +1831,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 202,
+    "id": 201,
     "name": "Spaghetti Sliced Bell Peppers and Folded Omelette",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-sliced-bell-peppers-and-folded-omelette.jpg",
     "file_name": "spaghetti-sliced-bell-peppers-and-folded-omelette.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 203,
+    "id": 202,
     "name": "Spaghetti Topped with Tomato Sauce and Chicken",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spaghetti-topped-with-tomato-sauce-and-chicken.jpg",
@@ -1697,25 +1849,30 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 204,
+    "id": 203,
     "name": "Spanish Dish Green Peas Potatoes and Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spanish-dish-green-peas-potatoes-and-boiled-eggs.jpg",
     "file_name": "spanish-dish-green-peas-potatoes-and-boiled-eggs.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light",
+      "no_meat"
     ]
   },
   {
-    "id": 205,
+    "id": 204,
     "name": "Spicy Bone Soup",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spicy-bone-soup.jpg",
     "file_name": "spicy-bone-soup.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light"
+    ]
   },
   {
-    "id": 206,
+    "id": 205,
     "name": "Spicy Fish Fry",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spicy-fish-fry.jpg",
@@ -1725,15 +1882,19 @@ export const meals = [
     ]
   },
   {
-    "id": 207,
+    "id": 206,
     "name": "Spicy Stir Fried Oyster Mushroom",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/spicy-stir-fried-oyster-mushroom.jpg",
     "file_name": "spicy-stir-fried-oyster-mushroom.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 208,
+    "id": 207,
     "name": "Steak Sandwich",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/steak-sandwich.jpg",
@@ -1741,27 +1902,30 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 209,
+    "id": 208,
     "name": "Steamed Squash and Vegetables",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/steamed-squash-and-vegetables.jpg",
     "file_name": "steamed-squash-and-vegetables.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
-    "id": 210,
+    "id": 209,
     "name": "Steamed Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/steamed-veggies.jpg",
     "file_name": "steamed-veggies.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light",
+      "no_meat"
     ]
   },
   {
-    "id": 211,
+    "id": 210,
     "name": "Stir Fried Beef Macaroni",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fried-beef-macaroni.jpg",
@@ -1769,15 +1933,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 212,
+    "id": 211,
     "name": "Stir Fried Noodles Topped with Soy Sauce",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fried-noodles-topped-with-soy-sauce.jpg",
     "file_name": "stir-fried-noodles-topped-with-soy-sauce.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 213,
+    "id": 212,
     "name": "Stir Fry Green Beans Minced Meat and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-green-beans-minced-meat-and-white-rice.jpg",
@@ -1785,31 +1951,39 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 214,
+    "id": 213,
     "name": "Stir Fry Green Beans White Rice and Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-green-beans-white-rice-and-boiled-eggs.jpg",
     "file_name": "stir-fry-green-beans-white-rice-and-boiled-eggs.jpg",
-    "tags": []
+    "tags": [
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 215,
+    "id": 214,
     "name": "Stir Fry Green Peas and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-green-peas-and-white-rice.jpg",
     "file_name": "stir-fry-green-peas-and-white-rice.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 216,
+    "id": 215,
     "name": "Stir Fry Noodles and Boiled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-noodles-and-boiled-eggs.jpg",
     "file_name": "stir-fry-noodles-and-boiled-eggs.jpg",
-    "tags": []
+    "tags": [
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 217,
+    "id": 216,
     "name": "Stir Fry Spaghetti and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-spaghetti-and-veggies.jpg",
@@ -1817,7 +1991,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 218,
+    "id": 217,
     "name": "Stir Fry Veggies and Sauteed Chicken Breast",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-veggies-and-sauteed-chicken-breast.jpg",
@@ -1827,25 +2001,31 @@ export const meals = [
     ]
   },
   {
-    "id": 219,
+    "id": 218,
     "name": "Stir Fry Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/stir-fry-veggies.jpg",
     "file_name": "stir-fry-veggies.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light",
+      "no_meat"
     ]
   },
   {
-    "id": 220,
+    "id": 219,
     "name": "Sweet Potato Boiled Eggs and Sliced Cucumbers",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sweet-potato-boiled-eggs-and-sliced-cucumbers.jpg",
     "file_name": "sweet-potato-boiled-eggs-and-sliced-cucumbers.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 221,
+    "id": 220,
     "name": "Tender Braised Meat and White Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tender-braised-meat-and-white-rice.jpg",
@@ -1853,43 +2033,49 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 222,
+    "id": 221,
     "name": "Tender Kidney and Plantain Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tender-kidney-and-plantain-stew.jpg",
     "file_name": "tender-kidney-and-plantain-stew.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 223,
+    "id": 222,
     "name": "Tomato Fried Sukuma Wiki",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tomato-fried-sukuma-wiki.jpg",
     "file_name": "tomato-fried-sukuma-wiki.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
-    "id": 224,
+    "id": 223,
     "name": "Tomato Spaghetti",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tomato-spaghetti.jpg",
     "file_name": "tomato-spaghetti.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 225,
+    "id": 224,
     "name": "Tomatoes and Veggies",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tomatoes-and-veggies.jpg",
     "file_name": "tomatoes-and-veggies.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
-    "id": 226,
+    "id": 225,
     "name": "Tripe Stew Matumbo",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tripe-stew-matumbo.jpg",
@@ -1899,25 +2085,28 @@ export const meals = [
     ]
   },
   {
-    "id": 227,
+    "id": 226,
     "name": "Tuna Cucumber and Tomato Salad",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/tuna-cucumber-and-tomato-salad.jpg",
     "file_name": "tuna-cucumber-and-tomato-salad.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "light"
     ]
   },
   {
-    "id": 228,
+    "id": 227,
     "name": "Ugali and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-and-beans.jpg",
     "file_name": "ugali-and-beans.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 229,
+    "id": 228,
     "name": "Ugali and Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-and-eggs.jpg",
@@ -1925,7 +2114,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 230,
+    "id": 229,
     "name": "Ugali and Wet Fried Omena",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-and-wet-fried-omena.jpg",
@@ -1933,15 +2122,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 231,
+    "id": 230,
     "name": "Ugali Sukuma Wiki and Scrambled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-sukuma-wiki-and-scrambled-eggs.jpg",
     "file_name": "ugali-sukuma-wiki-and-scrambled-eggs.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 232,
+    "id": 231,
     "name": "Ugali Sukuma Wiki with Beef Stew and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-sukuma-wiki-with-beef-stew-and-avocado.jpg",
@@ -1949,17 +2140,18 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 233,
+    "id": 232,
     "name": "Ugali Veggies and Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-veggies-and-beans.jpg",
     "file_name": "ugali-veggies-and-beans.jpg",
     "tags": [
-      "healthy"
+      "healthy",
+      "no_meat"
     ]
   },
   {
-    "id": 234,
+    "id": 233,
     "name": "Ugali Veggies and Omena",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-veggies-and-omena.jpg",
@@ -1967,15 +2159,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 235,
+    "id": 234,
     "name": "Ugali Veggies and Scrambled Eggs",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-veggies-and-scrambled-eggs.jpg",
     "file_name": "ugali-veggies-and-scrambled-eggs.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 236,
+    "id": 235,
     "name": "Ugali with Cabbage and Beef",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-with-cabbage-and-beef.jpg",
@@ -1983,7 +2177,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 237,
+    "id": 236,
     "name": "Ugali with Veggies and Beef",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/ugali-with-veggies-and-beef.jpg",
@@ -1993,7 +2187,7 @@ export const meals = [
     ]
   },
   {
-    "id": 238,
+    "id": 237,
     "name": "Vegetable Beef Soup",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/vegetable-beef-soup.jpg",
@@ -2001,7 +2195,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 239,
+    "id": 238,
     "name": "Vegetable Rice",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/vegetable-rice.jpg",
@@ -2009,15 +2203,19 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 240,
+    "id": 239,
     "name": "Vegetable Stir Fry",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/vegetable-stir-fry.jpg",
     "file_name": "vegetable-stir-fry.jpg",
-    "tags": []
+    "tags": [
+      "healthy",
+      "light",
+      "no_meat"
+    ]
   },
   {
-    "id": 241,
+    "id": 240,
     "name": "White Rice and Green Peas Stew",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-and-green-peas-stew.jpg",
@@ -2025,23 +2223,27 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 242,
+    "id": 241,
     "name": "White Rice and Njahi Beans",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-and-njahi-beans.jpg",
     "file_name": "white-rice-and-njahi-beans.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 243,
+    "id": 242,
     "name": "White Rice Beans with Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-beans-with-avocado.jpg",
     "file_name": "white-rice-beans-with-avocado.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 244,
+    "id": 243,
     "name": "White Rice Cooked with Corn",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-cooked-with-corn.jpg",
@@ -2049,7 +2251,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 245,
+    "id": 244,
     "name": "White Rice Green Peas and Potatoes",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-green-peas-and-potatoes.jpg",
@@ -2057,7 +2259,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 246,
+    "id": 245,
     "name": "White Rice Minced Meat and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-miced-meat-and-avocado.jpg",
@@ -2065,15 +2267,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 247,
+    "id": 246,
     "name": "White Rice Scrambled Eggs and Avocado",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-rice-scrambled-eggs-and-avocado.jpg",
     "file_name": "white-rice-scrambled-eggs-and-avocado.jpg",
-    "tags": []
+    "tags": [
+      "no_meat"
+    ]
   },
   {
-    "id": 248,
+    "id": 247,
     "name": "Yellow Rice Chicken and Potatoes",
     "category": "lunch_dinner",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/yellowrice-chicken-and-potatoes.jpg",
@@ -2081,15 +2285,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 249,
+    "id": 248,
     "name": "Apple Slices Served with Peanut Butter",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/apple-slices-served-with-peanut-butter.jpg",
     "file_name": "apple-slices-served-with-peanut-butter.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 250,
+    "id": 249,
     "name": "Assortment of Baked Cookies",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/assortment-of-baked-cookies.jpg",
@@ -2097,7 +2303,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 251,
+    "id": 250,
     "name": "Avocado and Tuna Bread Toast with Boiled Eggs",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/avocado-and-tuna-bread-toast-with-boiled-eggs.jpg",
@@ -2105,7 +2311,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 252,
+    "id": 251,
     "name": "Baked Sponge Cake",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/baked-sponge-cake.jpg",
@@ -2113,15 +2319,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 253,
+    "id": 252,
     "name": "Boiled Eggs and Kachumbari",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/boiled-eggs-and-kachumbari.jpg",
     "file_name": "boiled-eggs-and-kachumbari.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 254,
+    "id": 253,
     "name": "Bow of Popcorn",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/bow-of-popcorn.jpg",
@@ -2129,7 +2337,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 255,
+    "id": 254,
     "name": "Bread Stuffed with Cadbury Chocolate and Tea",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/bread-stuffed-with-cadburry-chocolate-and-tea.jpg",
@@ -2137,7 +2345,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 256,
+    "id": 255,
     "name": "Carrot Cake with Creamy Frosting",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/carrot-cake-with-creamy-frosting.jpg",
@@ -2145,23 +2353,27 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 257,
+    "id": 256,
     "name": "Cashew Nuts Madarin and Dark Chocolate",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/cashew-nuts-madarin-and-dark-chocolate.jpg",
     "file_name": "cashew-nuts-madarin-and-dark-chocolate.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 258,
+    "id": 257,
     "name": "Citrus Salad",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/citrus-salad.jpg",
     "file_name": "citrus-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 259,
+    "id": 258,
     "name": "Coca Cola and Cupcakes",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/cocacola-and-cupcakes.jpg",
@@ -2169,7 +2381,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 260,
+    "id": 259,
     "name": "Corn Snacks",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/corn-snacks.jpg",
@@ -2177,15 +2389,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 261,
+    "id": 260,
     "name": "Creamy Yogurt Topped with Strawberries and Drizzled with Honey",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/creamy-yogurt-topped-with-strawberries-and-drizzled-with-honey.jpg",
     "file_name": "creamy-yogurt-topped-with-strawberries-and-drizzled-with-honey.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 262,
+    "id": 261,
     "name": "Crispy Samosas and Spring Rolls",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crispy-samosas-and-spring-rolls.jpg",
@@ -2193,7 +2407,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 263,
+    "id": 262,
     "name": "Crispy Samosas",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/crispy-samosas.jpg",
@@ -2201,7 +2415,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 264,
+    "id": 263,
     "name": "Deep Fried Brazilian Pastels",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/deep-fried-brazilian-pastels.jpg",
@@ -2209,7 +2423,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 265,
+    "id": 264,
     "name": "Floydeez",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/floydeez.jpg",
@@ -2217,7 +2431,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 266,
+    "id": 265,
     "name": "Fresh Coconut Chunks",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fresh-coconut-chunks.jpg",
@@ -2227,31 +2441,37 @@ export const meals = [
     ]
   },
   {
-    "id": 267,
+    "id": 266,
     "name": "Fresh Fruit Bowl",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fresh-fruit-bowl.jpg",
     "file_name": "fresh-fruit-bowl.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 268,
+    "id": 267,
     "name": "Fresh Fruit Platter",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/fresh-fruit-platter.jpg",
     "file_name": "fresh-fruit-platter.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 269,
+    "id": 268,
     "name": "Frozen Chocolate Peanut Butter Banana Bites",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/frozen-chocolate-peanut-butter-banana-bites.jpg",
     "file_name": "frozen-chocolate-peanut-butter-banana-bites.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 270,
+    "id": 269,
     "name": "Glazed Blueberry Loaf Cake",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/glazed-blueberry-loaf-cake.jpg",
@@ -2259,7 +2479,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 271,
+    "id": 270,
     "name": "Golden Brown Baked Squares",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/golden-brown-baked-squares.jpg",
@@ -2267,7 +2487,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 272,
+    "id": 271,
     "name": "Golden Brown Butter Cookies",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/golden-brown-butter-cookies.jpg",
@@ -2275,7 +2495,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 273,
+    "id": 272,
     "name": "Hard Boiled Eggs and Boiled Potato Slices",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hard-boiled-eggs-and-boiled-potato-slices.jpg",
@@ -2285,7 +2505,7 @@ export const meals = [
     ]
   },
   {
-    "id": 274,
+    "id": 273,
     "name": "Hot Dog Buns Loaded with Sliced Sausage and Sweet Corn",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/hot-dog-buns-loaded-with-sliced-sausage-and-sweet-corn.jpg",
@@ -2293,7 +2513,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 275,
+    "id": 274,
     "name": "Ice Cream",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/icecream.jpg",
@@ -2301,7 +2521,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 276,
+    "id": 275,
     "name": "Kebabs",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/kebabs.jpg",
@@ -2309,7 +2529,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 277,
+    "id": 276,
     "name": "Layered Carrot Cake",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/layered-carrot-cake.jpg",
@@ -2317,7 +2537,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 278,
+    "id": 277,
     "name": "Lemonade",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/lemonade.jpg",
@@ -2325,15 +2545,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 279,
+    "id": 278,
     "name": "Mango Wedges Dusted with Chilli and Salt",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/mango-wedges-dusted-with-chilli-and-salt.jpg",
     "file_name": "mango-wedges-dusted-with-chilli-and-salt.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 280,
+    "id": 279,
     "name": "Movie Night Spread",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/movie-night-spread.jpg",
@@ -2341,15 +2563,17 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 281,
+    "id": 280,
     "name": "Orange Cucumber and Mint Salad",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/orange-cucumber-and-mint-salad.jpg",
     "file_name": "orange-cucumber-and-mint-salad.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 282,
+    "id": 281,
     "name": "Peanut Chikki",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/peanut-chikki.jpg",
@@ -2357,7 +2581,7 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 283,
+    "id": 282,
     "name": "Peeled and Chopped Sugarcane",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/peeled-and-chopped-sugarcane.jpg",
@@ -2365,23 +2589,27 @@ export const meals = [
     "tags": []
   },
   {
-    "id": 284,
+    "id": 283,
     "name": "Peeled Mangoes",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/peeled-mangoes.jpg",
     "file_name": "peeled-mangoes.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 285,
+    "id": 284,
     "name": "Pineapple Mixed with Thick Yogurt",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pineapple-mixed-with-thick-yogurt.jpg",
     "file_name": "pineapple-mixed-with-thick-yogurt.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
-    "id": 286,
+    "id": 285,
     "name": "Pineapple Slices and Spicy Salt",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pineapple-slices-and-spicy-salt.jpg",
@@ -2391,11 +2619,21 @@ export const meals = [
     ]
   },
   {
-    "id": 287,
+    "id": 286,
     "name": "Pinneapple Cucumber Salad Tossed with Diced Onion",
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/pinneapple-cucumber-salad-tossed-with-diced-onion.jpg",
     "file_name": "pinneapple-cucumber-salad-tossed-with-diced-onion.jpg",
+    "tags": [
+      "healthy"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Potato Wrapped Mini Hot Dogs",
+    "category": "snacks",
+    "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/potato-wrapped-mini-hot-dogs.jpg",
+    "file_name": "potato-wrapped-mini-hot-dogs.jpg",
     "tags": []
   },
   {
@@ -2446,7 +2684,9 @@ export const meals = [
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/skinless-peanuts.jpg",
     "file_name": "skinless-peanuts.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 294,
@@ -2454,7 +2694,9 @@ export const meals = [
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/sliced-bell-peppers-cucumber-spears-and-baby-carrots-served-with-hummus.jpg",
     "file_name": "sliced-bell-peppers-cucumber-spears-and-baby-carrots-served-with-hummus.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 295,
@@ -2514,7 +2756,9 @@ export const meals = [
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/thick-white-yogurt-topped-with-strawberries.jpg",
     "file_name": "thick-white-yogurt-topped-with-strawberries.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 302,
@@ -2522,7 +2766,9 @@ export const meals = [
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/thick-yogurt-raspberries-peach-slices-and-banana-chunks.jpg",
     "file_name": "thick-yogurt-raspberries-peach-slices-and-banana-chunks.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 303,
@@ -2546,7 +2792,9 @@ export const meals = [
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/white-yogurt-sliced-bananas-and-almonds.jpg",
     "file_name": "white-yogurt-sliced-bananas-and-almonds.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 306,
@@ -2554,7 +2802,9 @@ export const meals = [
     "category": "snacks",
     "image_url": "https://res.cloudinary.com/w6mugeo5/image/upload/f_auto,q_auto,c_limit,w_1200/whole-almonds-chunks-of-dark-chocolate-and-peeled-mandarin.jpg",
     "file_name": "whole-almonds-chunks-of-dark-chocolate-and-peeled-mandarin.jpg",
-    "tags": []
+    "tags": [
+      "healthy"
+    ]
   },
   {
     "id": 307,

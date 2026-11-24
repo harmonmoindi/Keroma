@@ -11,9 +11,27 @@ const TITLES = {
   smoothies: "Smoothies",
 };
 
-// To add a toggle: add an entry here, and a list for the same key in scripts/tags.mjs
+// To add a toggle: add an entry here (with the categories it appears in),
+// and a list for the same key in scripts/tags.mjs
 const FILTERS = [
-  { key: "healthy", label: "Healthier", message: "You're in the healthy section." },
+  {
+    key: "healthy",
+    label: "Healthier",
+    message: "You're in the healthy section.",
+    categories: ["breakfast", "lunch_dinner", "snacks"],
+  },
+  {
+    key: "light",
+    label: "Light meals & salads",
+    message: "Showing light meals and salads.",
+    categories: ["lunch_dinner"],
+  },
+  {
+    key: "no_meat",
+    label: "No meat",
+    message: "Showing meals without meat.",
+    categories: ["lunch_dinner"],
+  },
 ];
 
 function scrollByPage(el, direction) {
@@ -22,15 +40,19 @@ function scrollByPage(el, direction) {
 
 export default function Gallery() {
   const { category } = useParams();
+  const { meals } = useMeals();
   const [activeTags, setActiveTags] = useState([]);
   const [shuffled, setShuffled] = useState(null);
   const galleryRef = useRef(null);
-  const { meals } = useMeals();
+
+  // only the toggles that belong to this category
+  const filters = FILTERS.filter((f) => f.categories.includes(category));
+  const active = activeTags.filter((t) => filters.some((f) => f.key === t));
 
   // a freshly shuffled order while a toggle is on, the normal session order otherwise
   const source = shuffled ?? meals;
   const list = source.filter(
-    (m) => m.category === category && activeTags.every((t) => m.tags.includes(t))
+    (m) => m.category === category && active.every((t) => m.tags.includes(t))
   );
 
   function toggleTag(key) {
@@ -60,25 +82,30 @@ export default function Gallery() {
       <header className="gallery-bar">
         <Link to="/categories">← Back</Link>
         <h2>{TITLES[category] ?? "Meals"}</h2>
+      </header>
 
-        <div className="filters">
-          {FILTERS.map((f) => (
+      {filters.length > 0 && (
+        <div className="filter-bar" role="group" aria-label="Filters">
+          {filters.map((f) => (
             <button
               key={f.key}
-              className={`chip ${activeTags.includes(f.key) ? "on" : ""}`}
+              className={`chip ${active.includes(f.key) ? "on" : ""}`}
+              aria-pressed={active.includes(f.key)}
               onClick={() => toggleTag(f.key)}
             >
               {f.label}
             </button>
           ))}
         </div>
-      </header>
+      )}
 
-      {FILTERS.filter((f) => activeTags.includes(f.key)).map((f) => (
-        <p key={f.key} className="filter-note" role="status">
-          {f.message}
-        </p>
-      ))}
+      {filters
+        .filter((f) => active.includes(f.key))
+        .map((f) => (
+          <p key={f.key} className="filter-note" role="status">
+            {f.message}
+          </p>
+        ))}
 
       <div className="gallery-wrap">
         <button

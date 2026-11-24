@@ -26,6 +26,8 @@ const FIXES = {
   "yellowrice-chicken-and-potatoes": "yellow-rice-chicken-and-potatoes",
   "icecream": "ice-cream",
   "cocacola-and-cupcakes": "coca-cola-and-cupcakes",
+  "pinneapple-cucumber-salad-tossed-with-diced-onion": "pineapple-cucumber-salad-tossed-with-diced-onion",
+  "cashew-nuts-madarin-and-dark-chocolate": "cashew-nuts-mandarin-and-dark-chocolate",
 };
 
 const SMALL = new Set(["and", "or", "with", "of", "in", "the", "a", "to", "on"]);
